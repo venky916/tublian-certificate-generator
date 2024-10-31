@@ -70,7 +70,7 @@ This Certificate Generator application allows users to create a personalized cer
 ## Screenshots
 
 ### Certificate Without Information
-![Certificate Without Information](src/assests/certificate-without-info.png)
+![Certificate Without Information](src/assets/certificate-without-info.png)
 ![Certificate Without Information](\src\assets\certificate-without-info.png)
 
 ## License
