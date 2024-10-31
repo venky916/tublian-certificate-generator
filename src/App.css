@@ -1,0 +1,170 @@
+/* Set a default font */
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+/* Certificate Container */
+.certificate-container {
+  min-width: 776px;
+  min-height: 538px;
+  background-color: white;
+  border-radius: 25px;
+  border: 6px solid #FD642E;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  gap: 5px;
+}
+
+.logo {
+  width: 53px;
+  height: 53px;
+}
+
+.title {
+  color: #FD642E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.certificate-title{
+  margin-top: 50px;
+}
+
+.certificate-title h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.sub-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #FD642E;
+  font-size: 22px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+.name{
+  margin-top: 20px;
+}
+
+
+.certified-name{
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.underline{
+  border-top: 2px solid #FD642E;
+  width: 600px;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 600px;
+  line-height: 22px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-top: 45px;
+  padding: 20px;
+}
+
+.founder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.certify{
+  position: relative;
+  top: 20px;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signature-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.signature-title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.certification-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.certification-id img{
+  width: 43px;
+  height: 50px;
+}
+
+.certification-id h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #FD642E;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.certification-id p {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 17px;
+}
