@@ -71,8 +71,15 @@ This Certificate Generator application allows users to create a personalized cer
 
 ### Certificate Without Information
 ![Certificate Without Information](src/assets/certificate-without-info.png)
-![Certificate Without Information](\src\assets\certificate-without-info.png)
+![Certificate Without Information and sidebarForm](src/assets/certificate-with-sidebar.png)
+![Certificate With Information and sidebar](src/assets/certificate-with-info-and-sidebar.png)
+![Certificate With Information](src/assets/certificate-with-info.png)
 
+## PDF Certificate View
+
+You can download and view a sample certificate in PDF format by clicking the link below:
+
+[View Sample Certificate PDF](src/assets/Venkatesh_Maliga_certificate.pdf)
 ## License
 
 This project is open-source and available under the MIT License.
