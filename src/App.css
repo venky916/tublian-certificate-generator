@@ -64,6 +64,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 42px;
+  letter-spacing: 2.5px;
 }
 
 .sub-title {
@@ -72,6 +73,7 @@ body {
   color: #FD642E;
   font-size: 22px;
   letter-spacing: 5px;
+  word-spacing: 5px;
   margin-top: 10px;
 }
 
@@ -99,7 +101,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   max-width: 600px;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 .footer {
@@ -118,7 +120,7 @@ body {
 }
 .certify{
   position: relative;
-  top: 20px;
+  top: 25px;
 }
 
 .signature {
@@ -150,8 +152,8 @@ body {
 }
 
 .certification-id img{
-  width: 43px;
-  height: 50px;
+  width: 41px;
+  height: 47px;
 }
 
 .certification-id h6 {

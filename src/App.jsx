@@ -25,10 +25,10 @@ function App() {
     const { name, description, certificateId, date } = formData;
     
     setIsFormValid(
-      name.length != 0 &&
-        description.length != 0 &&
-        certificateId.length != 0 &&
-        date.length != 0,
+      name.length !== 0 &&
+        description.length !== 0 &&
+        certificateId.length !== 0 &&
+        date.length !== 0,
     );
   };
 
@@ -45,7 +45,7 @@ function App() {
   };
 
   const downloadPDF = () => {
-    // console.log(formData);
+    console.log(formData);
     const certificate = document.getElementById('certificate');
     html2canvas(certificate).then((canvas) => {
       const imgData = canvas.toDataURL('image/png');
