@@ -58,8 +58,7 @@ This Certificate Generator application allows users to create a personalized cer
 - **src**
   - `App.js`: Main application file with layout and routing
   - **components**
-    - `CertificateTemplate.js`: Certificate layout component
-    - `SidebarForm.js`: User input form component
+    - `CertificateTemplate.jsx`: Certificate layout component
   - **assets**: Folder for images like logos and background images
   - `App.css`: Global styles for the app
 
@@ -71,7 +70,7 @@ This Certificate Generator application allows users to create a personalized cer
 ## Screenshots
 
 ### Certificate Without Information
-![Certificate Without Information](src/assests/certificate-without-info.png)
+![Certificate Without Information](/src/assests/certificate-without-info.png)
 
 ## License
 
