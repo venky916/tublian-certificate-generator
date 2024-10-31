@@ -33,7 +33,7 @@ This Certificate Generator application allows users to create a personalized cer
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/certificate-generator.git
+   git clone https://github.com/venky916/tublian-certificate-generator.git
    cd certificate-generator
    ```
 2. **Install dependencies**:
